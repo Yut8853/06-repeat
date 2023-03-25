@@ -2,7 +2,7 @@ const { sum, sumEven, sumOfFive, sumOfThree, fiveMoreArray, maxNum } = require('
 
 // for文を使って1から10までの和を求めてください。
 
-test('sum55', () => {
+test('課題０４', () => {
   const result = 55;
   const resultCalc = sum(10);
 
@@ -11,7 +11,7 @@ test('sum55', () => {
 
 // for文を使って1から10までの偶数の和を求めてください。30
 
-test('sumEven' , () => {
+test('課題０５' , () => {
   const result = 30;
   const resultCalc = sumEven(10);
 
@@ -20,7 +20,7 @@ test('sumEven' , () => {
 
 // for文を使って1から10までの5以上の数の和を求めてください。45
 
-test('sumOfFive', () => {
+test('課題０６', () => {
   const result = 45;
   const resultCalc = sumOfFive(10);
 
@@ -29,7 +29,7 @@ test('sumOfFive', () => {
 
 // for文を使って1から10までの3以上の偶数の和を求めてください。28
 
-test('sumOfThree', () => {
+test('課題０７', () => {
   const result = 28;
   const resultCalc = sumOfThree(10);
 
@@ -38,7 +38,7 @@ test('sumOfThree', () => {
 
 // 配列[7, 3, 8, 11, 1, 6, 2, 4]の要素の中で5以上の要素をだけを持っている別の配列をfor文を使って作成してください。
 
-test('fiveMoreArray', () => {
+test('課題０８', () => {
   const array = [7, 3, 8, 11, 1, 6, 2, 4];
   const result = [7,8,11,6];
   const resultCalc = fiveMoreArray(array);
@@ -48,7 +48,7 @@ test('fiveMoreArray', () => {
 
 // 配列[7, 3, 8, 11, 1, 6, 2, 4]の要素の中で最大の数をfor文を使って求めてください。
 
-test('maxNum', () => {
+test('課題０９', () => {
   const array = [7, 3, 8, 11, 1, 6, 2, 4];
   const resultCalc = maxNum(array);
   const result = 11;
