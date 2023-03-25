@@ -4,7 +4,7 @@ const { sum, sumEven, sumOfFive, sumOfThree, fiveMoreArray, maxNum } = require('
 
 test('課題０４', () => {
   const result = 55;
-  const resultCalc = sum(10);
+  const resultCalc = sum();
 
   expect(resultCalc).toBe(result);
 });
@@ -13,7 +13,7 @@ test('課題０４', () => {
 
 test('課題０５' , () => {
   const result = 30;
-  const resultCalc = sumEven(10);
+  const resultCalc = sumEven();
 
   expect(resultCalc).toBe(result);
 })
@@ -22,7 +22,7 @@ test('課題０５' , () => {
 
 test('課題０６', () => {
   const result = 45;
-  const resultCalc = sumOfFive(10);
+  const resultCalc = sumOfFive();
 
   expect(resultCalc).toBe(result);
 });
@@ -31,7 +31,7 @@ test('課題０６', () => {
 
 test('課題０７', () => {
   const result = 28;
-  const resultCalc = sumOfThree(10);
+  const resultCalc = sumOfThree();
 
   expect(resultCalc).toBe(result);
 });
